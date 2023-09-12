@@ -1,0 +1,63 @@
+/* Header y navegación */
+
+.nombreSitio {
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    margin: 15px 0;
+    text-align: center;
+}
+
+.navPrincipal {
+    border-top: 1px dashed #e1e1e1;
+    padding: 20px;
+
+}
+/* solid linea 
+dashed puntillitas */
+
+.nav2 {
+    text-align: center;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 50px 5px 50px;
+    /* border-color: #e1e1e1;
+    border-top-style: solid;
+    border-width: 1px; */
+/* border en el primer valor va hacer el ancho, el segundo tipo del borde y el tercero el color del border */
+    
+}
+
+.emotions {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+}
+.emotions p {
+    margin: 20px 20px 20px 20px;
+}
+/* justify-content:  */
+.emotions img{
+    width: 350px; height: 350px;
+}
+
+.feelings {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.feelings p {
+    margin: 20px 20px 20px 20px;
+}
+.feelings img{
+    width: 500px; height: 380px;
+}
+
+p {
+    text-align: justify;
+}
