@@ -6,7 +6,7 @@ function Header() {
         <div className="nombreSitio">
             <h1>El Genio Está en Ti</h1>
             <div>
-                <nav className='navPrincipal'>
+                {/* <nav className='navPrincipal'>
                     <div className='nav2'>
                         <a href="App.jsx">Inicio</a>
                         <a href="Nosotros.html">Nosotros</a>
@@ -14,7 +14,7 @@ function Header() {
                         <a href="testimonios.html">Testimonios</a>
                     </div>
 
-                </nav>
+                </nav> */}
             </div>
         </div>
     )

@@ -3,9 +3,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <ul>
-            <li>Visión</li>
-            <li>Misión</li>
-            <li>Servicios</li>
+            <p>Siguenos en Redes Sociales</p>
+            <p>Maritza Granado Bedoya</p>
         </ul>
     )
 }
