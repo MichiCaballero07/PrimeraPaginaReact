@@ -59,6 +59,20 @@ dashed puntillitas */
     width: 500px; height: 380px;
 }
 
+.bt button {
+    background-color: rgb(225, 149, 216);
+    padding: 10px;
+    
+
+}
+.bt {
+    background-color: rgb(231, 195, 226);
+    padding: 0px;
+    display: block;
+
+}
+
+
 
 p {
     text-align: justify;

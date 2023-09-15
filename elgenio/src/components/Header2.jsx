@@ -13,9 +13,9 @@ const Header2 = () => {
                             <li className='reiki'>Reiki</li>
                             <li className='terapia'>Terapia
                                 <ul className='ulthird'>
-                                    <li>Constelaciones Familiares</li>
-                                    <li>Terapia de Parejas</li>
                                     <li>Terapia Personal</li>
+                                    <li>Terapia de Parejas</li>
+                                    <li>Constelaciones Familiares</li>
                                 </ul>
                             </li>
                             <li>Testimonios</li>
