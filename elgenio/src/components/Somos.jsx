@@ -1,18 +1,25 @@
+import { useState } from 'react'
+
 import images from '../assets/images/emotions.jpg'
-import image from '../assets/images/feelings.jpg'
+
 
 const Somos = () => {
+
+    const [mostrar, setMostrar] = useState(false);
+
+    const mostrartexto = () => {
+            setMostrar(!mostrar)
+    };
     return (
         <div>
 
 
             <div className='emotions'>
                 <img src={images} alt="emotions" />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nulla, illum, aliquam odio numquam ab, commodi corporis quaerat nihil consequatur dolores maiores nobis in aliquid eligendi itaque quos id adipisci!</p>
-            </div>
-            <div className='feelings'>
-                <img src={image} alt="feelings" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam temporibus exercitationem, in culpa eligendi quae assumenda ducimus eaque explicabo autem officiis deleniti voluptate velit? Esse quia odio aperiam iusto illum?</p>
+               <button onClick={mostrartexto}>Blog</button>
+                {
+                    (mostrar) ? (<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo totam atque officia sapiente quidem. Obcaecati, culpa mollitia! Veritatis incidunt aliquam possimus cumque, tenetur obcaecati, qui a, libero quas eos distinctio.</p>) : ''
+                }
             </div>
 
         </div>
